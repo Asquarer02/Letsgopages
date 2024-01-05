@@ -1,28 +1,44 @@
-/* FILEPATH: /d:/githubproject/Letsgopages/styles.css */
-
-/* Reset default styles */
-body, h1, p {
-  margin: 0;
-  padding: 0;
-}
-
-/* Set font and background color */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #2618eb;
-}
-
-/* Style heading */
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-/* Style paragraphs */
-p {
-  font-size: 16px;
-  color: #666;
-  margin-bottom: 20px;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+   }
+   
+   header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+   }
+   
+   nav ul {
+    background-color: #ddd;
+    overflow: hidden;
+   }
+   
+   nav ul li {
+    float: left;
+    display: block;
+    padding: 15px;
+   }
+   
+   nav ul li a {
+    text-decoration: none;
+    color: #000;
+   }
+   
+   main {
+    padding: 20px;
+   }
+   
+   footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   }
+   
