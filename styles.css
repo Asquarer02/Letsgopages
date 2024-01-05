@@ -2,18 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #FDFD96; /* Beige */
    }
    
    header {
-    background-color: #333;
+    background-color: #FF69B4; /* Hot Pink */
     color: #fff;
     padding: 10px 0;
     text-align: center;
    }
    
    nav ul {
-    background-color: #ddd;
+    background-color: #FF7F50; /* Coral */
     overflow: hidden;
    }
    
@@ -23,17 +23,28 @@ body {
     padding: 15px;
    }
    
-   nav ul li a {
+   .nav-link {
     text-decoration: none;
-    color: #000;
+    color: #32CD32; /* Lime Green */
+   }
+   
+   .nav-link:hover {
+    color: #FF6347; /* Tomato */
    }
    
    main {
     padding: 20px;
    }
    
+   .content-section {
+    padding: 20px;
+    background-color: #ADD8E6; /* Light Blue */
+    border: 1px solid #808080; /* Gray */
+    margin-bottom: 20px;
+   }
+   
    footer {
-    background-color: #333;
+    background-color: #808080; /* Gray */
     color: #fff;
     text-align: center;
     padding: 10px 0;
