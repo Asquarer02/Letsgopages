@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+
+.navbar {
+  background-color: gray;
+    min-height: 80px;
+    width: 100%;
+}
+
+h1{
+  color: white;
+}
+.navbar-brand {
+  color: white;
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.dropdown-item{
+  color: white;
+}
+
+.dropdown-menu {
+  width: 100%;
+  background-color: gray;
+  
+}
+
+
+.tall-section {
+  height: 1350px;
+  background-color: #black;
+  color: white;
+  opacity: 1;
+
+}
+
+
+.navbar-toggler {
+
+ margin-top: 23px;
+ margin-bottom: 12px;
+
+ padding: 9px 10px !important;
+}
+
+@media (min-width: 992px) { 
+ .nav-item > .nav-link { 
+   padding-top: 26.5px;
+   padding-bottom: 26.5px;
+   line-height: 27px;
+ }
+}
+
+.icon-large {
+  font-size: 30px; 
+}
+
+.navbar-toggler .d-sm-none .float-end{
+  clear: both;
+  float: right;
+}
+
+@media (max-width: 479.98px) {
+
+    .navbar{
+      width: 100%;
+    }
+}
