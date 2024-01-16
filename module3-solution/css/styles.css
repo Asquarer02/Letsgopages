@@ -10,7 +10,7 @@ body {
     width: 100%;
 }
 
-h1{
+h1,h2{
   color: white;
 }
 .navbar-brand {
@@ -37,6 +37,7 @@ h1{
 
 
 .tall-section {
+  margin-top: 20px;
   height: 1350px;
   background-color: #black;
   color: white;
